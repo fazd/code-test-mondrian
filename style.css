@@ -1,0 +1,158 @@
+.wrapper {
+  display: grid;
+  grid-auto-columns: minmax(10px, 30px);
+  grid-template-rows: repeat(12, 50px);
+}
+
+.pict {
+  border: 1px solid black;
+}
+
+.one {
+  grid-row: 1 / 5;
+  grid-column: 1 / 4;
+}
+.two {
+  grid-row: 1;
+  grid-column: 4 / 6;
+}
+.three {
+  grid-row: 1;
+  grid-column: 6 / 15;
+}
+.four {
+  grid-row: 1;
+  grid-column: 15 / 21;
+}
+.five {
+  grid-row: 2;
+  grid-column: 4 / 11;
+}
+.six {
+  grid-row: 2;
+  grid-column: 11 / 15;
+}
+
+.seven {
+  grid-row: 2;
+  grid-column: 15 / 19;
+}
+
+.eight {
+  grid-row: 2;
+  grid-column: 19 / 21;
+}
+
+.nine {
+  grid-row: 3 / 5;
+  grid-column: 4 / 6;
+}
+
+.ten {
+  grid-row: 3 / 5;
+  grid-column: 6 / 11;
+}
+
+.eleven {
+  grid-row: 3 / 7;
+  grid-column: 11 / 15;
+}
+
+.twelve {
+  grid-row: 3 / 7;
+  grid-column: 15 / 19;
+}
+
+.thirteen {
+  grid-row: 3 / 9;
+  grid-column: 19 / 21;
+}
+
+.fourteen {
+  grid-row: 5 / 11;
+  grid-column: 1 / 4;
+}
+
+.fifteen {
+  grid-row: 5 / 11;
+  grid-column: 4 / 6;
+}
+
+.sixteen {
+  grid-row: 5 / 7;
+  grid-column: 6 / 11;
+}
+
+.seventeen {
+  grid-row: 7 / 9;
+  grid-column: 6 / 11;
+}
+
+.eighteen {
+  grid-row: 7 / 9;
+  grid-column: 11 / 15;
+}
+
+.nineteen {
+  grid-row: 7 / 9;
+  grid-column: 15 / 19;
+}
+
+.twenty {
+  grid-row: 9 /11;
+  grid-column: 6 / 11;
+}
+
+.twenty-one {
+  grid-row: 9 / 11;
+  grid-column: 11 / 15;
+}
+
+.twenty-two {
+  grid-row: 9 / 11;
+  grid-column: 15 / 19;
+}
+
+.twenty-three {
+  grid-row: 9 / 12;
+  grid-column: 19 / 21;
+}
+
+.twenty-four {
+  grid-row: 11;
+  grid-column: 1 / 6;
+}
+
+.twenty-five {
+  grid-row: 11;
+  grid-column: 6 / 15;
+}
+
+.twenty-six {
+  grid-row: 11;
+  grid-column: 15 / 19;
+}
+
+.gray {
+  background-color: rgb(155, 153, 154);
+}
+
+.light-gray {
+  background-color: rgb(188, 184, 183);
+}
+
+.black {
+  background-color: rgb(71, 71, 71);
+}
+
+.red {
+  background-color: rgb(180, 103, 77);
+}
+
+.dark-blue {
+  background-color: rgb(75, 91, 107);
+}
+
+.yellow {
+  background-color: rgb(213, 182, 76);
+}
