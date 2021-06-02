@@ -162,128 +162,132 @@
 }
 
 @media (max-width: 700px) {
+  .wrapper {
+    grid-template-rows: repeat(26, 50px);
+  }
+
   .one {
     grid-row: 1;
     grid-column: 1 / 4;
   }
   .two {
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1 / 3;
   }
   .three {
-    grid-row: 18;
+    grid-row: 8;
     grid-column: 1 / 10;
   }
   .four {
-    grid-row: 2;
+    grid-row: 12;
     grid-column: 1 / 7;
   }
   .five {
-    grid-row: 3;
+    grid-row: 13;
     grid-column: 1 / 8;
   }
   .six {
-    grid-row: 10;
+    grid-row: 19;
     grid-column: 1 / 5;
   }
 
   .seven {
-    grid-row: 14;
+    grid-row: 4;
     grid-column: 1 / 5;
   }
 
   .eight {
-    grid-row: 19;
+    grid-row: 9;
     grid-column: 1 / 4;
   }
 
   .nine {
-    grid-row: 20;
+    grid-row: 5;
     grid-column: 1 / 3;
   }
 
   .ten {
-    grid-row: 21;
+    grid-row: 23;
     grid-column: 1 / 6;
   }
 
   .eleven {
-    grid-row: 19;
+    grid-row: 10;
     grid-column: 1 / 5;
   }
 
   .twelve {
-    grid-row: 11;
-    grid-column: 1 / 5;
-  }
-
-  .thirteen {
-    grid-row: 4;
-    grid-column: 1 / 4;
-  }
-
-  .fourteen {
-    grid-row: 5;
-    grid-column: 1 / 5;
-  }
-
-  .fifteen {
-    grid-row: 6;
-    grid-column: 1 / 3;
-  }
-
-  .sixteen {
-    grid-row: 22;
-    grid-column: 1 / 6;
-  }
-
-  .seventeen {
-    grid-row: 12;
-    grid-column: 1 / 5;
-  }
-
-  .eighteen {
-    grid-row: 7;
-    grid-column: 1 / 5;
-  }
-
-  .nineteen {
-    grid-row: 23;
-    grid-column: 1 / 5;
-  }
-
-  .twenty {
-    grid-row: 16;
-    grid-column: 1 / 6;
-  }
-
-  .twenty-one {
-    grid-row: 8;
-    grid-column: 1 / 5;
-  }
-
-  .twenty-two {
     grid-row: 20;
     grid-column: 1 / 5;
   }
 
-  .twenty-three {
-    grid-row: 13;
+  .thirteen {
+    grid-row: 14;
     grid-column: 1 / 4;
   }
 
-  .twenty-four {
+  .fourteen {
+    grid-row: 15;
+    grid-column: 1 / 5;
+  }
+
+  .fifteen {
+    grid-row: 16;
+    grid-column: 1 / 3;
+  }
+
+  .sixteen {
     grid-row: 24;
     grid-column: 1 / 6;
   }
 
+  .seventeen {
+    grid-row: 21;
+    grid-column: 1 / 5;
+  }
+
+  .eighteen {
+    grid-row: 2;
+    grid-column: 1 / 5;
+  }
+
+  .nineteen {
+    grid-row: 25;
+    grid-column: 1 / 5;
+  }
+
+  .twenty {
+    grid-row: 6;
+    grid-column: 1 / 6;
+  }
+
+  .twenty-one {
+    grid-row: 17;
+    grid-column: 1 / 5;
+  }
+
+  .twenty-two {
+    grid-row: 11;
+    grid-column: 1 / 5;
+  }
+
+  .twenty-three {
+    grid-row: 22;
+    grid-column: 1 / 4;
+  }
+
+  .twenty-four {
+    grid-row: 26;
+    grid-column: 1 / 6;
+  }
+
   .twenty-five {
-    grid-row: 9;
+    grid-row: 18;
     grid-column: 1 / 10;
   }
 
   .twenty-six {
-    grid-row: 17;
+    grid-row: 7;
     grid-column: 1 / 5;
   }
 }
